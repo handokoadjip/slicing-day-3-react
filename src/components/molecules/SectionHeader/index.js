@@ -9,7 +9,7 @@ const index = () => {
         <div className="row min-vh-100">
           <div className="col-lg-6 d-flex flex-column justify-content-end justify-content-xl-between position-relative p-0">
             <div className="wrapper pb-lg-5">
-              <div className="position-xl-absolute top-xl-50 start-xl-0 translate-xl-middle-y text-uppercase px-5">
+              <div className="position-xl-absolute top-xl-50 start-xl-0 translate-xl-middle-y text-uppercase px-5 text-jumbotron">
                 <h2 className="fs-4 text-border-bottom text-border-top">
                   spring
                 </h2>

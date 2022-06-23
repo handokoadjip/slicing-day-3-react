@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;500;600;700&family=PT+Sans:wght@400;700&display=swap');
+html,
+body {
+	overflow-x: hidden
+}
+
 body {
 	font-family: 'PT Sans', sans-serif;
 	background-color: #FBFBFB;
@@ -123,11 +128,11 @@ a:hover {
 	padding-top: 0.8rem;
 }
 
-.link {
+.btn-custom-1 {
 	width: 25%;
 }
 
-.link::after {
+.btn-custom-1::after {
 	content: '';
 	display: block;
 	width: 100%;
@@ -179,6 +184,13 @@ a:hover {
 
 .text-menu-plant {
 	height: 33.3%;
+}
+
+.text-jumbotron {
+	min-height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 /* 

@@ -4,7 +4,7 @@ import propTypes from "prop-types";
 
 const index = (props) => {
   const className = [
-    "link",
+    "btn-custom-1",
     "ls-1",
     "text-center",
     "d-block",
